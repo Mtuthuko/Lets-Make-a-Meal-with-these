@@ -8,9 +8,17 @@ Thumbs.db
 *.swp
 *.swo
 
-# Node (in case of future build tools)
-node_modules/
-npm-debug.log
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+env/
 
 # Environment
 .env
